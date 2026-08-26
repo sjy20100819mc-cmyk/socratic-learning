@@ -1,39 +1,52 @@
-# 示例对话 · 全科规划场景
+# Example Conversation · Study Planning Scenario
 
-> 展示「反向提问法」的真实效果。场景：高二学生六科都想提分、不知道先抓什么。
-> 注意观察：一次一问、层层下探、答不上来处即真卡点、最后落到行动。
-
----
-
-**用户**：我六科都想提分，但不知道从哪下手。
-
-**AI**（角色切换）：好，那我来当你的战略顾问——接下来不是我问你答，是我用问题帮你自己把答案逼出来。先摸个底：**六科里，哪一科是你最没把握、一提起来就头疼的？**
-
-**用户**：数学吧……每次考试都拖后腿。
-
-**AI**：行，数学。再具体点：**满分 150，你数学大概能拿多少？丢的分主要丢在哪类题——选择题、大题，还是计算粗心？**
-
-**用户**：大概 80 多分。大题基本不会，选择题还能蒙对几道。
-
-**AI**：明白了，分主要丢在大题。那**丢分的大题，是你"完全看不懂题目"，还是"看得懂但不知道从哪下笔"？**（第 3 层 · 卡点）
-
-**用户**：……看是看得懂，但就是不知道从哪下笔。一看到大题就懵。
-
-**AI**：这个回答很关键——说明你不是"没学"，是**缺方法**，不是缺知识点。那我再问最后一个问题：**如果让你现在开始练大题，你打算从哪种题型开始？**（第 4 层 · 行动）
-
-**用户**：不知道，就觉得都很难。
-
-**AI**：好，答案已经出来了——你连"从哪种题型开始"都答不上来，说明你缺的不只是方法，还有**一张地图**。我给你出规划：① 先花 2 天把"你目前会做的大题类型"列出来（会做的证明题？计算题？）② 从"离你会做最近"的那类开始，每天 1 道，只练下笔第一步 ③ 一周后回来检查：能不能独立写出第一步。
+> Shows the "reverse questioning" method in action. Scenario: a high-school student wants to improve
+> all six subjects but doesn't know where to start.
+> Watch for: one question at a time, digging deeper level by level, the unanswerable moment revealing
+> the real bottleneck, and landing on action.
 
 ---
 
-**复盘（这个对话教了什么）：**
+**User**: I want to improve in all six subjects, but I don't know where to start.
 
-| 环节 | 技巧 |
-|------|------|
-| 开场 | 先声明角色切换，降低戒备 |
-| 第 1 问 | 问"最没把握的科"→ 锁定目标 |
-| 第 2 问 | 问"丢分结构"→ 从模糊到具体 |
-| 第 3 问 | 问"看不懂 vs 不会下笔"→ 挖出真卡点（缺方法） |
-| 第 4 问 | 问"从哪开始"→ 用户答不上 = 需要地图（行动层依据） |
-| 收尾 | 把用户的"答不上"变成规划的依据，落到 3 步行动 |
+**AI** (role switch): Okay, I'll be your strategy advisor now — I'll stop answering and start asking,
+so the answers come out of you. First, let me get the lay of the land: **which subject worries you
+the most? The one you dread mentioning?**
+
+**User**: Math, I guess... it drags me down every exam.
+
+**AI**: Got it, math. Let's get more specific: **out of 150, roughly what do you score? And where do
+the points go — multiple choice, the big problems, or careless mistakes?**
+
+**User**: Around 80. I basically can't do the big problems; I get some multiple choice right by luck.
+
+**AI**: Clear — the loss is concentrated in the big problems. So tell me: **when you see a big problem,
+do you not understand the question at all, or do you understand it but have no idea where to start?**
+(Level 3 · Bottleneck)
+
+**User**: ...I can understand it. I just freeze — no idea where to put the pen down.
+
+**AI**: That answer is the key. It means you're NOT missing knowledge — **you're missing method**.
+One last question: **if you were to start practicing big problems today, which type would you begin
+with?** (Level 4 · Action)
+
+**User**: No idea. They all feel hard.
+
+**AI**: And there's the answer. The fact that you can't even name a starting type tells me you don't
+just lack method — you lack a **map**. Here's the plan: ① Spend 2 days listing the big-problem types
+you can already partially do (proof problems? calculation problems?) ② Start with the type closest to
+"almost can do it" — one problem a day, and only practice writing the FIRST step ③ Check back in a
+week: can you write the first step on your own?
+
+---
+
+**Breakdown (what this conversation teaches):**
+
+| Moment | Technique |
+|--------|-----------|
+| Opening | Announce the role switch to lower guard |
+| Q1 | Ask "most worried subject" → lock the target |
+| Q2 | Ask "where the points go" → from vague to specific |
+| Q3 | Ask "don't understand vs. don't know where to start" → expose the real bottleneck (missing method) |
+| Q4 | Ask "where would you start" → the unanswerable moment becomes the basis for the Action level |
+| Wrap-up | Turn the "can't answer" into the rationale, land on a 3-step action |

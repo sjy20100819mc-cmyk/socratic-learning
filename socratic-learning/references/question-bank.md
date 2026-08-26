@@ -1,55 +1,55 @@
-# 提问模板库 · 四层漏斗 × 每层问题
+# Question Bank · Four-Level Funnel × Templates per Level
 
-按「提问四层漏斗」分类。同一层内可自由挑选/改写，**每次只问 1 个**。
-
----
-
-## 第 1 层 · 现状层（摸清"你现在在哪"）
-
-目标：拿到客观事实，不做判断。
-
-- 这件事，你现在做到哪一步了？
-- 最近一次（考试/尝试/练习）是什么时候？结果大概怎么样？
-- 你手头有哪些资源？（课本/资料/时间/工具）
-- 每天/每周大概能投入多少时间？
-- 满分 X 分，你现在大概能拿多少？丢的分主要丢在哪？
-
-## 第 2 层 · 结构层（拆开"问题长什么样"）
-
-目标：把模糊的"我不会"拆成具体的环节。
-
-- 这道题考的是哪个知识板块？
-- 题目/材料里，哪些信息是关键信息？
-- 按你自己的理解，完成这件事需要哪几个步骤？
-- 如果把它拆成 3 步，你觉得哪一步你已经会了？
-- 你目前用过哪些方法？效果怎么样？
-
-## 第 3 层 · 卡点层（定位"真正的障碍"）
-
-目标：找到真卡点，区分"缺知识"还是"缺方法"。
-
-- 你具体卡在哪一步？卡之前的那一步你清楚吗？
-- 这一步需要什么条件 / 公式 / 原理？
-- 如果把这一步的答案告诉你，你后面能继续吗？
-- 你觉得你缺的是"不知道有这个知识点"，还是"知道但不知道怎么用"？
-- 如果这道题你完全会做，你会从哪开始写？
-
-> 用户答不上来的问题 = 真卡点。记录它，然后切换讲原理。
-
-## 第 4 层 · 行动层（产出"下一步做什么"）
-
-目标：把结论变成可执行清单。
-
-- 综合刚才聊的，你觉得第一步应该做什么？
-- 第一步具体到明天就能做的那种：做什么、做多久、怎么做算完成？
-- 做之前怎么判断方法对不对？做成什么样算"有效"？
-- 如果做的时候卡住了，你准备找谁/用什么办法？
-- 给自己定一个检查点：什么时候回来看效果？
+Organized by the Four-Level Questioning Funnel. Mix and match within a level — **always ask ONE at a time**.
 
 ---
 
-## 万能开场白（第 1 层入口）
+## Level 1 · Situation (Where are you now?)
 
-> 别急着要答案。我先问你几个问题，摸清你的情况——你现在是什么水平、
-> 卡在哪、手头有什么，问清楚了我才能帮你做出真正适合你的方案。
-> 第一个问题：______
+Goal: get objective facts, no judgment.
+
+- Where are you with this right now — what step have you reached?
+- When was your last (exam / attempt / practice)? Roughly how did it go?
+- What resources do you have on hand? (materials, time, tools)
+- How much time can you realistically put in per day / per week?
+- Out of a full score of X, where are you now? Where do the lost points go?
+
+## Level 2 · Structure (What does the problem look like?)
+
+Goal: break the vague "I can't do it" into concrete parts.
+
+- Which knowledge area does this test?
+- Which pieces of information in the material are the key ones?
+- In your own words, what steps does completing this require?
+- If you split it into 3 steps, which one can you already do?
+- What methods have you tried so far? How did they work?
+
+## Level 3 · Bottleneck (What's the real obstacle?)
+
+Goal: find the real bottleneck; separate "missing knowledge" from "missing method".
+
+- Which step exactly are you stuck at? Is the step before it clear to you?
+- What condition / formula / principle does this step need?
+- If I handed you the answer to this step, could you continue from there?
+- Do you think you're missing "not knowing the concept exists", or "knowing it but not how to use it"?
+- If you could do this problem perfectly, where would you start writing?
+
+> An unanswerable question = the real bottleneck. Note it, then switch to explaining the principle.
+
+## Level 4 · Action (What's the next step?)
+
+Goal: turn conclusions into an executable checklist.
+
+- Putting it all together, what do you think step one should be?
+- Make step one specific enough to do tomorrow: what, how long, how do you know it's done?
+- Before you start, how will you judge whether your approach works? What counts as "effective"?
+- If you get stuck while doing it, who / what will you turn to?
+- Set yourself a checkpoint: when will you come back and review the results?
+
+---
+
+## Universal Opening (Level 1 entry)
+
+> Hold on — don't reach for the answer yet. Let me ask you a few questions first to understand where
+> you are: what level you're at, where you're stuck, what you have on hand. Once I know that, I can
+> help you build a plan that actually fits you. First question: ______

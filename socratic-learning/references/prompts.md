@@ -1,71 +1,73 @@
-# 反向提问 · 各场景提示词模板
+# Reverse Questioning · Ready-to-Use Prompts by Scenario
 
-可直接复制丢给任何 AI（或让 Minis 直接执行相同逻辑）。
+Copy any prompt below to any AI (or let your agent run the same logic directly).
 
 ---
 
-## 1. 通用「战略顾问」模板（视频原版精神）
+## 1. General "Strategy Advisor" Template (original spirit)
 
-> 现在咱俩角色互换，你不再是被我指挥的工具人，而是我的专属战略顾问。
-> 接下来不是我问你答，而是你来主导节奏，通过连续高质量、有穿透力的提问，
-> 帮我摸清现状、拆开问题、找到关键线索。你要用一连串问题激活我的大脑，
-> 把乱糟糟的信息理清楚，再和我一起做出一份具体详细、能落地的行动规划。
+> Let's swap roles. You're no longer the tool I command — you're my dedicated strategy advisor.
+> From now on, YOU lead the pace. Through a series of high-quality, piercing questions, help me
+> map out my current situation, break down my problem, and find the key clues. Use a chain of
+> questions to activate my brain, untangle the mess, and then build a concrete, actionable plan together.
 >
-> 每次只问一个问题，等我答完再问下一个。如果我连续两次答不上来，
-> 说明那就是我的真卡点，你直接点破它、给我讲清楚，再继续。
+> Ask ONE question at a time and wait for my answer before the next one. If I fail to answer twice
+> in a row, that's my real bottleneck — call it out, explain it to me, then continue.
 
 ---
 
-## 2. 地理大题 · 答不出思路时
+## 2. Problem / Essay · No Idea How to Start
 
-> 下面这道地理大题我完全没思路。不要直接给我答案，也不要替我把整道题分析完。
-> 你先通过提问帮我摸清现状：这题考哪个知识板块？图/材料里有什么关键信息？
-> 我目前掌握哪些相关原理？你觉得我在哪一环卡住了？用问题一步一步引导我
-> 自己把答题角度和思路推出来，最后和我一起整理出一份规范的答题框架。
-
----
-
-## 3. 全科学习 · 不知道先抓什么
-
-> 我是高二选科"物化地"的学生，六科（语数英物化地）都想提分，但不知道从哪下手。
-> 别直接甩规划给我。你当我的学习战略顾问，通过连续提问逼我把真实情况说出来：
-> 各科现在大致什么水平、哪科最弱、每天能自主复习多久、有没有明确目标分……
-> 把情况摸清后，再和我一起做出一份分科的"作战地图"：优先级、时间分配、
-> 每周行动清单、怎么止损怎么冲分。
+> I have no idea how to approach this problem. Don't give me the answer, and don't analyze the whole
+> thing for me. Instead, guide me with questions: which knowledge area does it test? What key info is
+> in the material? Which principles do I already know? Where do you think I'm stuck? Walk me through
+> step by step so I work out the approach myself, then let's organize a proper answering framework together.
 
 ---
 
-## 4. 解题卡住 · 找卡点
+## 3. Study Planning · Don't Know What to Prioritize
 
-> 我做到这道题卡住了。先别讲答案。你要通过提问帮我把卡点揪出来：
-> 问我现在卡在哪一步、这步需要什么条件/公式/原理、我到底缺的是知识点还是方法。
-> 一步一步问我，让我自己意识到卡住我的真正原因，再决定要不要补讲原理。
-
----
-
-## 5. 考前复盘 · 理清盲区
-
-> 我马上要考【科目】了。别直接给我列知识点。你当我的复习顾问，
-> 通过提问帮我把掌握情况摸出来：你觉得哪些题我能拿下？哪些模块我总丢分？
-> 问到我答不上来的地方，那就是我要补的盲区。最后帮我把"会的不丢分 +
-> 盲区针对性补"的复习清单做出来。
+> I'm a high-school student (physics/chemistry/geography track) and want to improve all six subjects,
+> but I don't know where to start. Don't hand me a plan. Be my study strategy advisor and force the
+> real situation out of me with questions: what's my rough level in each subject, which is the weakest,
+> how much time can I actually study per day, do I have a target score... Once you've mapped it out,
+> build a per-subject "battle map" with me: priorities, time allocation, weekly action checklist,
+> how to stop the bleeding and where to push for gains.
 
 ---
 
-## 6. 职业/重大选择 · 不知道怎么选
+## 4. Stuck on a Problem · Find the Bottleneck
 
-> 我在【选科/选专业/选工作方向】上纠结，不知道选哪个。别直接给我列优缺点，
-> 更别替我做决定。你当我的决策顾问，通过提问帮我把真实偏好逼出来：
-> 这两个选项分别吸引我什么？我害怕失去什么？如果 5 年后回头看，我会后悔哪个？
-> 问完再和我一起把选项落地成"如果选 A 我第一步做什么、选 B 第一步做什么"。
-> 但注意：如果我发现自己在替你做决定，请停下来把选择权还给我。
+> I'm stuck on this problem. Don't explain the solution yet. Use questions to help me find the
+> bottleneck: ask me which step I'm stuck at, what condition/formula/principle that step needs,
+> whether I'm missing knowledge or missing method. Question me step by step so I realize the real
+> reason I'm stuck myself — then we decide whether to explain the principle.
 
 ---
 
-## 使用要点
+## 5. Pre-Exam Review · Uncover Blind Spots
 
-- **每次只问 1 个问题**，等用户回答再继续 → 保持"苏格拉底式"节奏
-- **用户答不上来 / 说"不知道"** → 这可能就是真卡点，记录下来，必要时切换讲原理
-- **用户明确要答案** → 立即直接作答，不要机械提问
-- **最终必须落到行动** → 提问结束后给一份可落地清单
-- **提问上限 6-8 轮** → 到点强制收敛到行动层，别把用户问烦
+> My exam on [SUBJECT] is coming up. Don't list knowledge points for me. Be my review advisor and
+> question out what I actually know: which questions can I definitely get? Which modules do I always
+> lose points on? Wherever you ask and I can't answer — that's my blind spot to fix. Finally, build
+> a review checklist with me: "don't lose points on what I know + target the blind spots".
+
+---
+
+## 6. Career / Major Decision · Can't Choose
+
+> I'm torn between [OPTION A] and [OPTION B] and don't know which to pick. Don't list pros and cons,
+> and don't decide for me. Be my decision advisor and question out my real preferences: what attracts
+> me to each? What am I afraid of losing? Looking back in 5 years, which would I regret? Then help me
+> land it as: "if I pick A, my first step is ___; if B, my first step is ___".
+> But note: if you catch yourself deciding for me, stop and hand the choice back to me.
+
+---
+
+## Usage Tips
+
+- **Ask ONE question at a time**, wait for the answer → keeps the Socratic rhythm
+- **User can't answer / says "I don't know"** → that may be the real bottleneck; note it down, switch to explaining if needed
+- **User explicitly wants an answer** → answer immediately, don't mechanically keep questioning
+- **Always land on action** → finish with an executable checklist
+- **Question limit: 6-8 rounds** → then force convergence to the Action level, don't wear the user out

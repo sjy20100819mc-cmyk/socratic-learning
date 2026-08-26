@@ -1,67 +1,75 @@
-# 苏格拉底式「反向提问」法（Socratic Learning）
+# Socratic Learning — "Reverse Questioning" Agent Skill
 
-> 让 AI 反过来提问你 —— 把"答题机器"变成"战略顾问"。
+> Let the AI question *you* instead — turn an "answer machine" into a "strategy advisor".
 
-一个 **Agent Skill**：当思路乱、没方向、卡住时，AI 不再直接给答案，而是**反过来主导节奏**，通过连续、有穿透力的提问，引导用户自己理清思路、拆解问题、找到真正的卡点，并共同产出**可落地的行动规划**。
+An **Agent Skill** for the moments when your thinking is messy, you have no direction, or you're stuck.
+Instead of giving answers, the AI **flips the script** and leads the conversation with a series of sharp,
+probing questions — guiding you to clarify your own thinking, break down the problem, find the real
+bottleneck, and co-create an **actionable plan**.
 
-源自抖音爆款「AI 反向操作」技巧，已在**高中生全科提分**场景实战打磨（数学/物理/化学/地理/语文/外语全科适用），同样适用于职业选择、决策梳理、复盘等通用场景。
+Inspired by the viral "AI reverse operation" TikTok technique, battle-tested in high-school exam prep
+(all subjects), and equally useful for career choices, decision-making, and review.
 
 ---
 
-## 它解决什么问题
+## What It Solves
 
-| 场景 | AI 的默认行为 | 本 Skill 的行为 |
-|------|--------------|----------------|
-| "我六科都想提分，不知道先抓什么" | 直接甩一份规划 | 先连环提问摸清现状 → 逼出真实优先级 → 共同制定作战地图 |
-| "这道题我没思路" | 直接讲题 | 一层层问，让用户自己发现卡在哪一步、缺什么 |
-| "我要考试了，帮我梳理" | 列知识点清单 | 提问找到用户答不上来的地方 = 真盲区，针对性补 |
+| Scenario | Default AI behavior | This Skill's behavior |
+|----------|--------------------|-----------------------|
+| "I want to improve all six subjects but don't know where to start" | Dumps a plan on you | Questions out your real situation → forces out your priorities → builds a battle map together |
+| "I have no idea how to do this problem" | Walks through the solution | Asks level by level until you discover for yourself which step is stuck and what's missing |
+| "I have an exam, help me review" | Lists knowledge points | Finds the exact spots you can't answer — your real blind spots — and targets them |
 
-**核心边界**：治"想不明白"，不治"根本不知道"——原理没记住时先讲透再提问；明确要答案时直接给答案，不绕圈。
+**Core boundary**: treats "can't think clearly", NOT "doesn't know the fundamentals" — explain the
+principle first when concepts aren't memorized; answer directly when an answer is explicitly requested.
 
-## 快速开始
+## Quick Start
 
-### 安装到 Agent（支持 Agent Skills 的 AI 应用）
+### Install as an Agent Skill
 
-把整个 `socratic-learning/` 目录放入你的 skills 目录（如 `~/.claude/skills/`、`/var/minis/skills/`），或在对话中让 AI 读取 `SKILL.md`。
+Drop the `socratic-learning/` folder into your agent's skills directory (e.g. `~/.claude/skills/`,
+`/var/minis/skills/`), or have the agent read `SKILL.md`.
 
-### 直接使用（无需安装）
+### Use Without Installing
 
-把 `references/prompts.md` 里的提示词模板复制给任何 AI 即可生效。
+Copy any prompt from `references/prompts.md` to any AI and it works immediately.
 
-## 目录结构
+## Structure
 
 ```
 socratic-learning/
-├── SKILL.md                        # 核心：使用时机、四层漏斗、兜底机制
+├── SKILL.md                        # Core: when to use, four-level funnel, safety rails
 ├── references/
-│   ├── prompts.md                  # 6 个场景的成品提示词（可直接复制）
-│   └── question-bank.md            # 四层漏斗 × 每层问题模板库
+│   ├── prompts.md                  # 6 ready-to-use scenario prompts (copy-paste)
+│   └── question-bank.md            # question templates by funnel level
 └── examples/
-    └── demo-conversation.md        # 完整示例对话 + 技巧复盘
+    └── demo-conversation.md        # full example conversation + technique breakdown
 ```
 
-## 核心方法论
+## Core Methodology
 
-**提问四层漏斗**（从宽到窄，层层推进）：
+**The Four-Level Questioning Funnel** (broad to narrow):
 
 ```
-第 1 层 · 现状层    你现在在哪？（水平、学过什么、卡在哪）
+Level 1 · Situation    Where are you now? (level, what you've learned, where you're stuck)
    ↓
-第 2 层 · 结构层    问题长什么样？（考什么板块、用到什么方法）
+Level 2 · Structure    What does the problem look like? (topic, methods involved)
    ↓
-第 3 层 · 卡点层    真正的障碍是什么？（缺知识还是缺方法？）
+Level 3 · Bottleneck   What's the real obstacle? (missing knowledge or missing method?)
    ↓
-第 4 层 · 行动层    下一步做什么？（第一步、时间、验收标准）
+Level 4 · Action       What's the next step? (first action, time, acceptance criteria)
 ```
 
-**好问题的 4 条标准**：单点（一次只问 1 个）｜具体（可回答）｜可回答（答不上来的答案本身就是信号）｜有推进（每问一步信息更完整）
+**4 criteria for good questions**: single-point (one at a time) · specific · answerable (an unanswerable
+question IS a signal) · progressive (each answer adds information).
 
-**兜底机制**：连续 2 次答不上来 = 真卡点，切换讲原理；提问上限 6-8 轮；情绪低落/赶时间时快速收敛到行动层。
+**Safety rails**: 2 consecutive unanswerable questions = real bottleneck, switch to explaining; question
+limit 6-8 rounds; when the user is upset or in a hurry, converge to action fast.
 
-## 灵感来源
+## Inspiration
 
-- 抖音爆款「AI 反向操作」技巧
-- 苏格拉底式提问法（通过追问引导而非灌输）
+- The viral "AI reverse operation" TikTok technique
+- The Socratic method (guiding through questioning rather than lecturing)
 
 ## License
 

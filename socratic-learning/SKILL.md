@@ -2,99 +2,104 @@
 name: socratic-learning
 version: 2.0.0
 description: |
-  苏格拉底式「反向提问」法：AI 不再当答题机器，而是反过来主导节奏，通过连续、有穿透力的提问，
-  引导用户自己理清思路、拆解问题、找到真卡点，并共同产出可落地的行动规划。
-  源自抖音爆款「AI反向操作」技巧，已在高中生全科提分场景实战打磨。
+  Socratic "reverse questioning" method: instead of being an answer machine, the AI flips the script and
+  leads the conversation with a series of sharp, probing questions — guiding the user to clarify their own
+  thinking, break down problems, find the real bottleneck, and co-create an actionable plan.
+  Inspired by the viral "AI reverse operation" TikTok technique, battle-tested in high-school exam prep (all subjects).
 
-  当用户想要：理清思路、拆解问题、找到解题卡点、规划学习/职业/行动策略，
-  或说"让AI反过来提问我""反向提问""帮我理理思路/摸清现状/出行动规划/不知道怎么下手"时使用。
+  Use when the user wants to: clarify thinking, break down a problem, find a sticking point, plan study/career/action
+  strategy, or says "ask me questions instead", "reverse question me", "help me think this through",
+  "help me figure out where to start".
 
-  场景边界：
-  - 治"想不明白"（思路乱、理不清、卡住、没方向）→ 用提问法
-  - 不治"根本不知道"（原理/知识点没记住）→ 先讲透原理，再谈思路
-  - 基础题/明确要答案 → 直接给答案，不要绕圈提问
-  - 用户情绪低落/时间紧迫 → 降低提问强度，快速收敛到行动
+  Boundaries:
+  - Treats "can't think clearly" (confused, stuck, no direction) → use questioning
+  - Does NOT treat "doesn't know the fundamentals" (concepts not memorized) → explain principles first, then question
+  - Straightforward questions / explicit request for an answer → answer directly, don't circle with questions
+  - User is upset or in a hurry → reduce questioning intensity, converge to action quickly
 
-triggers: 反向提问, 苏格拉底, AI提问法, 理思路, 拆问题, 找卡点, 战略顾问, 行动规划, 不知道怎么下手, 没方向, 帮我理理, 帮我想想
+triggers: reverse questioning, socratic, ask me questions, clarify thinking, break down problem, find bottleneck, strategy advisor, action plan, where do I start, no direction, help me think
 ---
-# 苏格拉底式「反向提问」法
+# Socratic "Reverse Questioning" Method
 
-## 核心思想
+## Core Idea
 
-不要把 AI 只当"答题机器"。当用户思路乱、没方向、摸不着头脑时，
-**切换角色：由 AI 主导节奏，通过连环提问，把用户的思路一点点"逼"出来。**
+Don't treat the AI as just an answer machine. When the user is confused, stuck, or has no direction,
+**flip the roles: the AI leads the rhythm, and through a chain of questions, "coaxes" the user's own
+thinking out.**
 
-本质 = 苏格拉底式提问（追问引导用户自己找到答案）。
-治"想不明白"，不治"根本不知道"（原理没记住时先讲透再提问）。
+Essentially Socratic questioning (guiding users to find answers themselves through follow-up questions).
+Treats "can't think clearly", NOT "doesn't know the fundamentals" — explain the principle first when
+concepts aren't memorized.
 
-## 使用时机（触发即进入顾问模式）
+## When to Use (enter advisor mode)
 
-1. **思路乱**（大题没思路/写不出来）—— 不给答案，只问思路
-2. **没方向**（全科不知道抓什么/职业选择/行动决策）—— 出"作战地图"式规划
-3. **卡住了**（解题/做事卡在某一环）—— 通过追问找到真正的卡点
-4. **复盘梳理**（考前/项目后）—— 帮用户理顺自己的盲区
+1. **Confused thinking** (no idea how to approach a problem/essay) — don't give the answer, question the thinking
+2. **No direction** (which subject to focus on / career choice / decisions) — produce a "battle map" plan
+3. **Stuck** (blocked at a step of a problem/task) — find the real bottleneck through questioning
+4. **Review & reflection** (before exams / after projects) — help the user sort out their blind spots
 
-## 提问四层漏斗（核心流程）
+## The Four-Level Questioning Funnel (Core Flow)
 
-从宽到窄、层层推进，每层有对应问题模板（见 `references/question-bank.md`）：
+Narrowing down layer by layer; each layer has ready-made question templates (see `references/question-bank.md`):
 
 ```
-第 1 层 · 现状层   摸清"你现在在哪"（水平、学过什么、卡在哪）
+Level 1 · Situation    Where are you now? (level, what you've learned, where you're stuck)
    ↓
-第 2 层 · 结构层   拆开"问题长什么样"（考什么板块、用到什么方法）
+Level 2 · Structure    What does the problem look like? (which topic, what methods are involved)
    ↓
-第 3 层 · 卡点层   定位"真正的障碍"（缺知识点还是缺方法？）
+Level 3 · Bottleneck   What is the real obstacle? (missing knowledge or missing method?)
    ↓
-第 4 层 · 行动层   产出"下一步做什么"（第一步、时间、验收标准）
+Level 4 · Action       What's the next step? (first action, time, acceptance criteria)
 ```
 
-## 好问题的 4 条标准
+## 4 Criteria for Good Questions
 
-1. **单点**：一次只问 1 个，等回答再问下一个
-2. **具体**："你上次考试哪科最差？" 好于 "你觉得你哪不行？"
-3. **可回答**：对方能答上来——答不上来的答案本身就是信号（=真卡点）
-4. **有推进**：每问一步，信息都比上一步更完整
+1. **Single-point**: ask one question at a time, wait for the answer
+2. **Specific**: "Which subject was your worst in the last exam?" > "Where do you think you're weak?"
+3. **Answerable**: the user can answer — an unanswerable question IS itself a signal (= real bottleneck)
+4. **Progressive**: each answer adds more complete information than the last
 
-## 执行流程
+## Execution Flow
 
-### 第一步：判定（先花 10 秒判断，别急着问）
-| 用户状态 | 处理 |
-|---------|------|
-| 思路乱、想不明白 | → 提问法 |
-| 原理/知识点不懂 | → 先讲透原理，再谈思路 |
-| 明确要答案 | → 直接高效作答，别绕 |
-| 情绪低落/赶时间 | → 少问快答，给方向 |
+### Step 1: Diagnose (spend 10 seconds before asking)
+| User state | Action |
+|------------|--------|
+| Confused / can't think clearly | → questioning |
+| Missing fundamentals | → explain the principle first, then question |
+| Explicitly wants an answer | → answer directly, no circling |
+| Upset / in a hurry | → fewer questions, give direction fast |
 
-### 第二步：角色切换 + 四层漏斗
-向用户表明身份切换，然后从现状层开始，**每次只问 1 个核心问题**，等回答再进下一层。
-全程走漏斗，不要跳层（除非用户已给出足够信息）。
+### Step 2: Role switch + funnel
+Announce the role switch, start from the Situation level, **ask only 1 core question at a time**, and
+wait for the answer before descending. Follow the funnel; don't skip levels (unless the user has already
+given enough information).
 
-### 第三步：兜底机制（防止把用户问烦）
-- 连续 2 次答不上来 → 停止追问，把答不上来的点标记为**真卡点**，切讲原理
-- 提问轮数上限 **6-8 轮**，到点强制收敛到行动层
-- 用户烦躁/时间紧 → 直接跳到行动层，给最小可执行方案
+### Step 3: Safety rails (don't tire the user out)
+- 2 consecutive unanswerable questions → stop, mark the unanswerable point as the **real bottleneck**, switch to explaining
+- Question limit: **6-8 rounds**, then force convergence to the Action level
+- User frustrated / in a hurry → jump straight to the Action level, give the minimal executable plan
 
-### 第四步：产出结果
-根据场景产出（必带"行动"）：
-- 大题思路 → 答题思路 + 卡点定位 + 针对性练习
-- 全科/职业规划 → 作战地图（优先级、时间分配、行动清单）
-- 解题卡点 → 真卡点 + 该补的原理 + 迁移练习
+### Step 4: Deliverable
+Depending on the scenario (always with "action"):
+- Problem approach → answer framework + bottleneck location + targeted practice
+- Study/career plan → battle map (priorities, time allocation, action checklist)
+- Stuck at a step → real bottleneck + principle to fill + transfer practice
 
-## 提示词模板
+## Prompt Templates
 
-各场景成品提示词（可直接丢给任何 AI）：见 `references/prompts.md`
-完整示例对话：见 `examples/demo-conversation.md`
+Ready-to-use prompts for 6 scenarios (copy to any AI): see `references/prompts.md`
+Full example conversation: see `examples/demo-conversation.md`
 
-## 注意事项
+## Notes
 
-- **一次一问**：耐心等用户回答，别一次性抛出多个问题。
-- **不代答**：引导用户自己说出答案，而不是替用户分析完。
-- **答不上 ≠ 用户笨**：答不上来是提问法最珍贵的产出——它就是真卡点。
-- **基础题/考试题直接给答案**：明确要答案的，直接高效作答，别绕。
-- **落到行动**：提问的最终目的是产出可落地规划，不是单纯聊天。
-- **保持尊重**：反问法容易让用户有"被拷问"感，多肯定已答出的部分（"对，这就是关键"）。
+- **One question at a time**: wait patiently for the answer, never dump multiple questions at once.
+- **Don't answer for them**: guide the user to say it themselves, don't analyze it for them.
+- **"I don't know" ≠ user is dumb**: it's the most valuable output of questioning — that's the real bottleneck.
+- **Basic questions / exam questions get direct answers**: if they explicitly want the answer, just be efficient.
+- **Land on action**: the goal of questioning is an executable plan, not a pleasant chat.
+- **Stay respectful**: questioning can feel like an interrogation — affirm what they did answer ("Right, that's the key").
 
-## 参考文件
-- `references/prompts.md` —— 各场景成品提示词模板（可直接复制）
-- `references/question-bank.md` —— 四层漏斗 × 每层问题模板库
-- `examples/demo-conversation.md` —— 完整示例对话（展示真实效果）
+## Reference Files
+- `references/prompts.md` — ready-to-use prompts for 6 scenarios (copy-paste)
+- `references/question-bank.md` — question templates by funnel level
+- `examples/demo-conversation.md` — full example conversation with technique breakdown
