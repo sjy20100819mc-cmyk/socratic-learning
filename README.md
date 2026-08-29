@@ -1,5 +1,7 @@
 # Socratic Learning — "Reverse Questioning" Agent Skill
 
+![Socratic Learning Card](socratic-learning-card.png)
+
 > Let the AI question *you* instead — turn an "answer machine" into a "strategy advisor".
 
 An **Agent Skill** for the moments when your thinking is messy, you have no direction, or you're stuck.
