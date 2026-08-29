@@ -22,6 +22,8 @@ Inspired by the viral "AI reverse operation" TikTok technique, battle-tested in 
 | "I have no idea how to do this problem" | Walks through the solution | Asks level by level until you discover for yourself which step is stuck and what's missing |
 | "I have an exam, help me review" | Lists knowledge points | Finds the exact spots you can't answer — your real blind spots — and targets them |
 
+![What it solves](docs/scenarios.png)
+
 **Core boundary**: treats "can't think clearly", NOT "doesn't know the fundamentals" — explain the
 principle first when concepts aren't memorized; answer directly when an answer is explicitly requested.
 
@@ -35,6 +37,8 @@ Drop the `socratic-learning/` folder into your agent's skills directory (e.g. `~
 ### Use Without Installing
 
 Copy any prompt from `references/prompts.md` to any AI and it works immediately.
+
+![Example conversation](docs/demo.png)
 
 ## Structure
 
@@ -51,6 +55,8 @@ socratic-learning/
 ## Core Methodology
 
 **The Four-Level Questioning Funnel** (broad to narrow):
+
+![Four-level questioning funnel](docs/funnel.png)
 
 ```
 Level 1 · Situation    Where are you now? (level, what you've learned, where you're stuck)
